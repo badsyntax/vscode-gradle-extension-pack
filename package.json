@@ -3,16 +3,28 @@
   "displayName": "Gradle Extension Pack",
   "description": "Useful Gradle extensions",
   "version": "0.0.0",
+  "private": true,
   "author": "Richard Willis <willis.rh@gmail.com>",
   "publisher": "richardwillis",
   "license": "SEE LICENSE IN LICENSE.md",
   "homepage": "https://github.com/badsyntax/vscode-gradle-extension-pack",
-  "repository": "https://github.com/badsyntax/vscode-gradle-extension-pack",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/badsyntax/vscode-gradle-extension-pack"
+  },
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.40.0"
   },
   "categories": [
     "Extension Packs"
+  ],
+  "keywords": [
+    "java",
+    "gradle",
+    "compile",
+    "build",
+    "tasks"
   ],
   "extensionPack": [
     "naco-siren.gradle-language",
