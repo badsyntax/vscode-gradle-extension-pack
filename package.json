@@ -1,0 +1,41 @@
+{
+  "name": "vscode-gradle-extension-pack",
+  "displayName": "Gradle Extension Pack",
+  "description": "Useful Gradle extensions",
+  "version": "0.0.0",
+  "author": "Richard Willis <willis.rh@gmail.com>",
+  "publisher": "richardwillis",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "homepage": "https://github.com/badsyntax/vscode-gradle-extension-pack",
+  "repository": "https://github.com/badsyntax/vscode-gradle-extension-pack",
+  "engines": {
+    "vscode": "^1.40.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "naco-siren.gradle-language",
+    "richardwillis.vscode-gradle"
+  ],
+  "scripts": {
+    "lint": "prettier --check \"**/*.{ts,js,json,svg,md,yml}\"",
+    "format": "prettier --write '**/*.{ts,js,json,svg,md,yml}'"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "tabWidth": 2,
+    "printWidth": 80,
+    "overrides": [
+      {
+        "files": "*.svg",
+        "options": {
+          "parser": "html"
+        }
+      }
+    ]
+  }
+}
