@@ -28,7 +28,7 @@
   ],
   "extensionPack": [
     "naco-siren.gradle-language",
-    "richardwillis.vscode-gradle"
+    "vscjava.vscode-gradle"
   ],
   "scripts": {
     "lint": "prettier --check \"**/*.{ts,js,json,svg,md,yml}\"",
